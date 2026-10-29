@@ -1,0 +1,17 @@
+name: NeptunPets
+version: ${project.version}
+main: de.neptun.pets.NeptunPets
+api-version: '1.21'
+author: Neptun
+description: Pets fuer OPs - jeder Mob mit Varianten, Effekten und Einstellungen.
+
+commands:
+  np:
+    description: NeptunPets - Pet-Menue (nur OP).
+    usage: /np [Mob] [Variante] | /np name | /np remove
+    aliases: [neptunpets]
+
+permissions:
+  neptunpets.use:
+    description: Wird nicht benutzt - nur OPs duerfen /np.
+    default: op
